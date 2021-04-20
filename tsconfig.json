@@ -16,8 +16,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@style/*": ["style/*"]
+  }
   },
+  
   "include": [
     "next-env.d.ts",
     "**/*.ts",
