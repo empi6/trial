@@ -13,6 +13,7 @@ export default function Home() {
       <p> This is the trial page addition</p>
 
       <h2> Hello  </h2>
+      <h2> Adding this title to create conflict</h2>
       
     </div>
   )
